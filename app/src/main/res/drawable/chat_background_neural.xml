@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#0f0f23"
+                android:endColor="#1a1a2e"
+                android:angle="135" />
+        </shape>
+    </item>
+    <!-- Neural pattern overlay -->
+    <item>
+        <shape>
+            <solid android:color="#16213E" />
+        </shape>
+    </item>
+</layer-list>

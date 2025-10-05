@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Exclude all shared preferences by default for security -->
+    <exclude domain="sharedpref" path="."/>
+    
+    <!-- Exclude all databases by default for security -->
+    <exclude domain="database" path="."/>
+    
+    <!-- Include only safe UI preferences -->
+    <include domain="sharedpref" path="ui_preferences.xml"/>
+</full-backup-content>

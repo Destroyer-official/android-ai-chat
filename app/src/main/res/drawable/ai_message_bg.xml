@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base shape with gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="@color/ai_message_bg"
+                android:centerColor="#FF2A1E3E"
+                android:endColor="@color/ai_message_bg"
+                android:angle="45"
+                android:type="linear" />
+            <corners android:radius="20dp" />
+        </shape>
+    </item>
+    <!-- Neon border effect -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp" />
+            <stroke
+                android:width="1dp"
+                android:color="@color/accent_purple" />
+            <gradient
+                android:startColor="#4D9C27B0"
+                android:centerColor="#809C27B0"
+                android:endColor="#4D9C27B0"
+                android:angle="45" />
+        </shape>
+    </item>
+    <!-- Top highlight -->
+    <item android:top="1dp" android:left="1dp" android:right="1dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp" />
+            <gradient
+                android:startColor="#33FFFFFF"
+                android:endColor="#00FFFFFF"
+                android:angle="90" />
+        </shape>
+    </item>
+</layer-list>

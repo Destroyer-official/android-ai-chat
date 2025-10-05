@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors - Comfortable Dark Theme -->
+    <color name="background_primary">#1E1E1E</color>
+    <color name="surface_primary">#2D2D30</color>
+    <color name="surface_secondary">#3E3E42</color>
+    <color name="surface_glass">#404040</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent_primary">#4FC3F7</color>
+    <color name="accent_secondary">#9C27B0</color>
+    <color name="accent_tertiary">#FF7043</color>
+
+    <!-- Text Colors - Better Contrast -->
+    <color name="text_primary">#E0E0E0</color>
+    <color name="text_secondary">#BDBDBD</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_on_primary_secondary">#F5F5F5</color>
+    
+    <!-- Message Colors - Premium Transparent -->
+    <color name="message_user_bg">#AA0D4F8C</color>
+    <color name="message_ai_bg">#CC424242</color>
+    
+    <!-- Navigation Colors -->
+    <color name="nav_item_color">@color/text_primary</color>
+    
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FF9800</color>
+    <color name="error">#F44336</color>
+    
+    <!-- Gradients -->
+    <color name="gradient_start">#667eea</color>
+    <color name="gradient_end">#764ba2</color>
+    
+    <!-- Legacy colors for compatibility -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Additional legacy colors -->
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_grey">#B0BEC5</color>
+    <color name="surface">#1A1A2E</color>
+    <color name="background">#0A0A0F</color>
+    <color name="code_bg">#1E1E2E</color>
+    <color name="primary_neon">#00D4FF</color>
+    <color name="accent_purple">#7C4DFF</color>
+    <color name="accent_cyan">#00D4FF</color>
+    <color name="ai_message_bg">#1E1E2E</color>
+    <color name="icon_tint">#B0BEC5</color>
+    <color name="edit_text_bg">#16213E</color>
+    <color name="user_message_bg">#AA0A5A8A</color>
+    <color name="ic_launcher_background">#1E1E2E</color>
+    
+    <!-- Additional colors that might be missing -->
+    <color name="primary_color">#6366F1</color>
+    <color name="primary_dark">#4F46E5</color>
+    <color name="accent_color">#F59E0B</color>
+    <color name="secondary_color">#10B981</color>
+    <color name="background_color">#0F172A</color>
+    <color name="surface_color">#1E293B</color>
+    
+    <!-- Code Block Styling -->
+    <color name="code_text">#E8F5E8</color>
+    <color name="code_background">#1A1A2E</color>
+    
+    <!-- Premium Code Block Styling -->
+    <color name="code_text_premium">#00FF88</color>
+    <color name="code_background_premium">#0A0A0F</color>
+    <color name="code_border_premium">#00D4FF</color>
+    
+    <!-- Sci-Fi Code Colors -->
+    <color name="code_keyword">#7C4DFF</color>
+    <color name="code_string">#00FF88</color>
+    <color name="code_comment">#64748B</color>
+    
+    <!-- Premium Message Styling -->
+    <color name="message_user_bg_premium">#AA2D3748</color>
+    <color name="message_ai_bg_premium">#DD2A2A2E</color>
+    <color name="message_border_premium">#4FC3F7</color>
+    
+    <!-- Sci-Fi Premium Backgrounds - More Distinct -->
+    <color name="message_user_bg_dark">#BB2563EB</color>
+    <color name="message_ai_bg_dark">#DD2A2A2E</color>
+    <color name="message_user_bg_purple">#AA4C1D95</color>
+    
+    <!-- Subtle Premium Backgrounds -->
+    <color name="message_user_subtle">#CC2A2A3E</color>
+    <color name="message_ai_subtle">#DD1E1E2E</color>
+    
+    <!-- Sci-Fi Accent Colors -->
+    <color name="scifi_blue">#00D4FF</color>
+    <color name="scifi_purple">#7C4DFF</color>
+    <color name="scifi_green">#00FF88</color>
+    
+    <!-- Premium Surface Colors -->
+    <color name="surface_glass_premium">#55404040</color>
+    <color name="surface_elevated">#3A3A3E</color>
+</resources>

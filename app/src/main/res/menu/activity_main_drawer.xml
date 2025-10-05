@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_chat"
+            android:title="Chat" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history"
+            android:title="Chat History" />
+    </group>
+
+    <group android:id="@+id/ai_models_group" android:checkableBehavior="single">
+        <item android:title="🖼️ Image + Chat Models (11)" android:enabled="false" android:icon="@drawable/ic_image_premium" />
+        <item android:id="@+id/nav_model_1" android:icon="@drawable/ic_ai_assistant" android:title="Mistral Small 3.2 24B" />
+        <item android:id="@+id/nav_model_2" android:icon="@drawable/ic_ai_assistant" android:title="Kimi VL A3B Thinking" />
+        <item android:id="@+id/nav_model_3" android:icon="@drawable/ic_ai_assistant" android:title="Llama 4 Maverick" />
+        <item android:id="@+id/nav_model_4" android:icon="@drawable/ic_ai_assistant" android:title="Llama 4 Scout" />
+        <item android:id="@+id/nav_model_5" android:icon="@drawable/ic_qwen" android:title="Qwen2.5 VL 32B" />
+        <item android:id="@+id/nav_model_6" android:icon="@drawable/ic_ai_assistant" android:title="Mistral Small 3.1 24B" />
+        <item android:id="@+id/nav_model_7" android:icon="@drawable/ic_gemini" android:title="Gemma 3 4B IT" />
+        <item android:id="@+id/nav_model_8" android:icon="@drawable/ic_gemini" android:title="Gemma 3 12B IT" />
+        <item android:id="@+id/nav_model_9" android:icon="@drawable/ic_gemini" android:title="Gemma 3 27B IT" />
+        <item android:id="@+id/nav_model_10" android:icon="@drawable/ic_qwen" android:title="Qwen2.5 VL 72B" />
+        <item android:id="@+id/nav_model_11" android:icon="@drawable/ic_gemini" android:title="Gemini 2.0 Flash" />
+        
+        <item android:title="💬 Chat Only Models (28)" android:enabled="false" android:icon="@drawable/ic_chat" />
+        <item android:id="@+id/nav_model_12" android:icon="@drawable/ic_ai_assistant" android:title="Tongyi DeepResearch 30B" />
+        <item android:id="@+id/nav_model_13" android:icon="@drawable/ic_ai_assistant" android:title="Longcat Flash Chat" />
+        <item android:id="@+id/nav_model_14" android:icon="@drawable/ic_ai_assistant" android:title="Nemotron Nano 9B V2" />
+        <item android:id="@+id/nav_model_15" android:icon="@drawable/ic_deepseek" android:title="DeepSeek Chat V3.1" />
+        <item android:id="@+id/nav_model_16" android:icon="@drawable/ic_ai_assistant" android:title="GPT OSS 20B" />
+        <item android:id="@+id/nav_model_17" android:icon="@drawable/ic_ai_assistant" android:title="GLM 4.5 Air" />
+        <item android:id="@+id/nav_model_18" android:icon="@drawable/ic_qwen" android:title="Qwen3 Coder" />
+        <item android:id="@+id/nav_model_19" android:icon="@drawable/ic_qwen" android:title="Kimi K2" />
+        <item android:id="@+id/nav_model_20" android:icon="@drawable/ic_ai_assistant" android:title="Dolphin Mistral 24B Venice" />
+        <item android:id="@+id/nav_model_21" android:icon="@drawable/ic_gemini" android:title="Gemma 3N E2B IT" />
+        <item android:id="@+id/nav_model_22" android:icon="@drawable/ic_ai_assistant" android:title="Hunyuan A13B" />
+        <item android:id="@+id/nav_model_23" android:icon="@drawable/ic_deepseek" android:title="DeepSeek R1T2 Chimera" />
+        <item android:id="@+id/nav_model_24" android:icon="@drawable/ic_qwen" android:title="Kimi Dev 72B" />
+        <item android:id="@+id/nav_model_25" android:icon="@drawable/ic_deepseek" android:title="DeepSeek R1 Qwen3 8B" />
+        <item android:id="@+id/nav_model_26" android:icon="@drawable/ic_deepseek" android:title="DeepSeek R1 0528" />
+        <item android:id="@+id/nav_model_27" android:icon="@drawable/ic_ai_assistant" android:title="Devstral Small 2505" />
+        <item android:id="@+id/nav_model_28" android:icon="@drawable/ic_gemini" android:title="Gemma 3N E4B IT" />
+        <item android:id="@+id/nav_model_29" android:icon="@drawable/ic_ai_assistant" android:title="Llama 3.3 8B" />
+        <item android:id="@+id/nav_model_30" android:icon="@drawable/ic_qwen" android:title="Qwen3 4B" />
+        <item android:id="@+id/nav_model_31" android:icon="@drawable/ic_qwen" android:title="Qwen3 30B A3B" />
+        <item android:id="@+id/nav_model_32" android:icon="@drawable/ic_qwen" android:title="Qwen3 8B" />
+        <item android:id="@+id/nav_model_33" android:icon="@drawable/ic_qwen" android:title="Qwen3 14B" />
+        <item android:id="@+id/nav_model_34" android:icon="@drawable/ic_qwen" android:title="Qwen3 235B A22B" />
+        <item android:id="@+id/nav_model_35" android:icon="@drawable/ic_deepseek" android:title="DeepSeek R1T Chimera" />
+        <item android:id="@+id/nav_model_36" android:icon="@drawable/ic_ai_assistant" android:title="MAI DS R1" />
+        <item android:id="@+id/nav_model_37" android:icon="@drawable/ic_ai_assistant" android:title="Shisa V2 Llama3.3 70B" />
+        <item android:id="@+id/nav_model_38" android:icon="@drawable/ic_ai_assistant" android:title="QwQ 32B ArliAI RPR V1" />
+        <item android:id="@+id/nav_model_39" android:icon="@drawable/ic_ai_assistant" android:title="DeepCoder 14B Preview" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_api_key"
+                android:icon="@drawable/ic_key"
+                android:title="API Key Settings" />
+            <item
+                android:id="@+id/nav_models"
+                android:icon="@drawable/ic_models"
+                android:title="Manage Models" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="App Settings" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

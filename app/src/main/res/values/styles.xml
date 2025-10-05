@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text styles -->
+    <style name="TextAppearance.App.Message" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+        <item name="android:textIsSelectable">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextAppearance.App.MessageCode" parent="TextAppearance.App.Message">
+        <item name="android:textColor">@color/code_text</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:background">@color/code_bg</item>
+    </style>
+
+    <style name="TextAppearance.App.Hint" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/text_grey</item>
+    </style>
+
+    <!-- Card styles -->
+    <style name="Widget.App.CardView.Message" parent="Widget.Material3.CardView.Filled">
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="contentPadding">12dp</item>
+    </style>
+
+    <!-- Spinner Theme -->
+    <style name="SpinnerTheme" parent="ThemeOverlay.Material3.AutoCompleteTextView.OutlinedBox">
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:backgroundTint">@color/surface</item>
+        <item name="android:popupBackground">@color/surface</item>
+    </style>
+
+    <!-- EditText Theme -->
+    <style name="Widget.App.EditText" parent="Widget.Material3.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:textColorHint">@color/text_grey</item>
+        <item name="android:background">@drawable/edit_text_bg</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <!-- Image Style -->
+    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+</resources>
